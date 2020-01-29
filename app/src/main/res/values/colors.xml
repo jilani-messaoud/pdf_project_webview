@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorcadre">#D6D6D6</color>
+    <color name="colorELm">#F0F0F0</color>
+    <color name="colorEditText">#FFFFFF</color>
+    <color name="colorcadre2">#8A8A8A</color>
+    <color name="noir">#011400</color>
+    <color name="ListeAjout">#313131</color>
+    <color name="button">#9a9a9a</color>
+
+</resources>

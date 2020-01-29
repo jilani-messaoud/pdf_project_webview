@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <TextView
+
+        android:id="@+id/textView10"
+        android:layout_width="0dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="176dp"
+        android:gravity="center_horizontal"
+        android:text="Bienvenue."
+        android:textColor="@color/noir"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+
+    <TextView
+        android:id="@+id/plsLogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Veuillez vous connecter."
+        android:textColor="@color/noir"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+    <TextView
+        android:background="@color/noir"
+        android:layout_width="1dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView11"
+        app:layout_constraintStart_toStartOf="@+id/editLogin"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/editPass"
+        app:layout_constraintTop_toTopOf="@+id/editLogin"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+
+        android:textColorHint="@color/noir"
+        android:id="@+id/editLogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="30dp"
+        android:drawableStart="@drawable/email"
+        android:drawablePadding="15dp"
+        android:hint="user_name"
+
+        android:paddingStart="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plsLogin" />
+    <EditText
+
+        android:drawableStart="@drawable/pass"
+        android:paddingStart="20dp"
+        android:drawablePadding="15dp"
+        android:hint="password"
+        android:id="@+id/editPass"
+        android:layout_width="0dp"
+        android:textColorHint="@color/noir"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/editLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"/>
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="194dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="36dp"
+
+        android:background="@drawable/border_button_ajout"
+        android:stateListAnimator="@null"
+        android:text="login"
+        android:textColor="@color/noir"
+        app:layout_constraintEnd_toEndOf="@+id/editPass"
+        app:layout_constraintStart_toStartOf="@+id/editLogin"
+        app:layout_constraintTop_toBottomOf="@+id/editPass" />
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"
+        android:text=""
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.137"
+
+        />
+
+
+</android.support.constraint.ConstraintLayout>
